@@ -1,0 +1,113 @@
+.static {
+    position: static;
+    border: 2px solid red;
+}
+
+.Relative {
+    position: relative;
+    border: 2px solid red;
+    top: 20px;
+    left: 20px;
+
+}
+
+.Fixed {
+    position: fixed;
+    right: 50px;
+    bottom: 290px;
+    border: 2px solid red;
+}
+
+
+.relative1 {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    border: 2px solid red;
+}
+
+.Absolute {
+    background-color: rgb(128, 240, 128);
+    top: 50px;
+    left: 10px;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border: 2px solid red;
+}
+
+/* .Sticky{
+
+   position: sticky;
+   right: 10px;
+
+} */
+
+.align{
+    margin: auto;
+    border: 2px solid red;
+    width: 6%;
+}
+
+.a{
+    white-space: nowrap;
+}
+.b{
+    white-space: normal;
+}
+.c{
+    white-space: pre;
+}
+
+#a{
+    width: 50%;
+    border: 2px solid red;
+}
+
+#b{
+    width: auto;
+    border: 2px solid red;
+}
+#ah{
+    height: 300px;
+    border: 2px solid red;
+}
+
+#bh{
+    height: auto;
+    border: 2px solid red;
+}
+
+.wrap{
+    word-wrap: break-word;
+    border: 2px solid red;
+    width: 200px;
+    height: 110px;
+}
+
+.bxshadow{
+    box-shadow: 5px 10px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.txshadow{
+    border: 2px solid black;
+    text-shadow: 1px 2px 3px red;
+}
+
+.txtransform #lcase{
+    border: 1px solid black;
+    text-transform: lowercase;
+    padding: 10px;
+}
+.txtransform #ucase{
+    border: 1px solid black;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.txtransform #capital{
+    border: 1px solid black;
+    text-transform: capitalize;
+    padding: 10px;
+}
